@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio / Projects — Jeanne Marie E. Formales, IT student portfolio.">
+  <meta name="author" content="Jeanne Marie E. Formales"><meta property="og:title" content="Portfolio / Projects | Jeanne Marie E. Formales">
+  <meta property="og:description" content="Explore project concepts and work samples."><title>Portfolio / Projects | Jeanne Marie E. Formales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+<style>
+  /* Ensure filtered cards stay hidden even when styles.css assigns display:grid/flex. */
+  #projectList > .project-card[hidden] {
+    display: none !important;
+  }
+</style>
+
+</head><body><div class="site-shell"><header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">JF</span><span>JEANNE MARIE E. FORMALES<span class="brand-sub">IT STUDENT PORTFOLIO</span></span></a><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="main-nav" id="mainNav" aria-label="Main navigation"><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="skills.html" class="">Skills</a><a href="experience.html" class="">Experience</a><a href="projects.html" class="active">Projects</a><a href="education.html" class="">Education</a><a href="resume.html" class="">CV / Resume</a><a href="contact.html" class="">Contact</a></nav><button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">◐</button></header><main>
+  <div class="page-intro">
+    <span class="eyebrow">PORTFOLIO</span>
+    <h1>Portfolio / Projects</h1>
+  </div>
+
+  <div class="single-panel">
+    <section class="panel projects-panel" id="projects">
+      <div class="projects-heading">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>GRAPHICS DESIGN<br><em>PROJECTS</em></h2>
+        </div>
+        <span class="project-count">
+          <strong id="projectCount">04</strong>
+          <small>PROJECTS</small>
+        </span>
+      </div>
+
+      <div class="project-tools">
+        <label class="search-box">
+          <span>⌕</span>
+          <input type="search" id="projectSearch" placeholder="Search projects, tools..." aria-label="Search projects">
+        </label>
+        <label class="sr-only" for="categoryFilter">Filter projects by category</label>
+        <select id="categoryFilter" aria-label="Filter projects by category">
+          <option value="all">All categories</option>
+          <option value="prelim">PRELIM</option>
+          <option value="midterms">MIDTERMS</option>
+          <option value="finals">FINALS</option>
+        </select>
+      </div>
+
+      <div class="project-list" id="projectList">
+        <article class="project-card" data-category="prelim" data-search="fruitful design watermelon picnic mat drawing oil pastel elements principles">
+          <div class="project-art fruitful-project-art">
+            <span class="art-label">PRELIM PROJECT 1</span>
+            <img src="fruitful-design.jpg" width="390" height="276" alt="Fruitful Design — Watermelon on Picnic Mat artwork preview" loading="lazy">
+            <span class="art-corner">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>#1: "FRUITFUL DESIGN" APPLYING THE ELEMENTS AND PRINCIPLES OF DESIGN</span></div>
+            <h3>Fruitful Design</h3>
+            <p>The title of this artwork is "Watermelon on Picnic Mat"</p>
+            <div class="tag-row"><span>AUGUST 5, 2026</span></div>
+            <button class="text-link project-details fruitful-view-details" type="button" data-fruitful-details="true" data-title="Fruitful Design" data-description="Watermelon on Picnic Mat — applying the elements and principles of design." data-tech="Drawing · Oil Pastel">View project details <span></span></button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="prelim" data-search="brand design logo badge horizontal vertical gimp graphics design">
+          <div class="project-art brand-project-art">
+            <span class="art-label">PRELIM PROJECT 2</span>
+            <img src="logo design badge.jpg" width="390" height="276" alt="Brand Design logo badge" loading="lazy">
+            <img src="logo design horizontal.jpg" width="390" height="276" alt="Brand Design horizontal logo" loading="lazy">
+            <img src="logo design vertical.jpg" width="390" height="276" alt="Brand Design vertical logo" loading="lazy">
+            <img src="logo design.jpg" width="390" height="276" alt="Brand Design logo artwork" loading="lazy">
+            <span class="art-corner">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>#2: "BRAND DESIGN" MAKING LOGO DESIGN BADGE, HORIZONTAL AND VERTICAL</span></div>
+            <h3>Brand Design</h3>
+            <p>Creation of a digital brand identity, including badge, horizontal, and vertical logo variations.</p>
+            <div class="tag-row"><span>AUGUST 31, 2026</span></div>
+            <button class="text-link project-details" type="button" data-title="Brand Design" data-description="Creation of a digital brand identity, including badge, horizontal, and vertical logo variations." data-tech="Graphics Design · GIMP">View project details <span></span></button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="midterms" data-search="digital marketing graphics urban threads clothing brand back to school t-shirt collection logo design sketch">
+          <div class="project-art digimarket-project-art">
+            <span class="art-label">MIDTERM PROJECT 1</span>
+            <img src="Formales_Option2_LogoDesignSketch_page-0001.jpg" width="390" height="276" alt="Digital Marketing Graphics project sketch for Urban Threads" loading="lazy">
+            <span class="art-corner">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>#1: "DIGITAL MARKETING GRAPHICS" MAKING DIGITAL MARKETING GRAPHICS FOR CLOTHING BRAND "URBAN THREADS" BACK-TO-SCHOOL T-SHIRT COLLECTION</span></div>
+            <h3>Digital Marketing Graphics</h3>
+            <p>Digital marketing graphics concept for the Urban Threads back-to-school T-shirt collection.</p>
+            <div class="tag-row"><span>SEPTEMBER 2, 2026</span></div>
+            <button class="text-link project-details" type="button" data-title="Digital Marketing Graphics" data-description="Digital marketing graphics concept for the Urban Threads back-to-school T-shirt collection." data-tech="Graphic Design · Digital Marketing">View project details <span></span></button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="midterms" data-search="typography brand poster beanc lover beanclover coffee shop sketch gimp">
+          <div class="project-art typograph-project-art">
+            <span class="art-label">MIDTERM PROJECT 2</span>
+            <img src="Formales_ TypographyBrandPosterSketch_page-0001.jpg" width="390" height="276" alt="Typography Brand Poster sketch" loading="lazy">
+            <img src="Formales_TypographyBrandPoster.jpg" width="390" height="390" alt="Typography Brand Poster final design for BeanClover coffee shop" loading="lazy">
+            <span class="art-corner">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>#2: "TYPOGRAPHY BRAND POSTER" MAKING TYPOGRAPHY BRAND POSTER FOR "BeanClover" COFFEE SHOP</span></div>
+            <h3>Typography Brand Poster</h3>
+            <p>Typography-based brand poster created for the BeanClover coffee shop.</p>
+            <div class="tag-row"><span>SEPTEMBER 17, 2026</span></div>
+            <button class="text-link project-details" type="button" data-title="Typography Brand Poster" data-description="Typography-based brand poster created for the BeanClover coffee shop." data-tech="Typography · Graphic Design">View project details <span></span></button>
+          </div>
+        </article>
+      </div>
+
+      <div class="no-results" id="noResults" hidden>No projects match your search. Try another keyword or category.</div>
+    </section>
+  </div>
+</main><footer class="footer"><a class="footer-brand" href="index.html"><span class="brand-mark">JF</span><span>Jeanne Marie E. Formales<small>IT STUDENT</small></span></a><p>Designed with curiosity. Built to keep growing.</p><div class="footer-links"><a href="contact.html"></a><span>© <span id="year"></span> JEANNE MARIE E. FORMALES</span></div></footer></div>
+<div class="fruitful-modal" id="fruitfulModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="fruitfulModalTitle">
+  <div class="fruitful-modal-backdrop" data-close-fruitful></div>
+  <div class="fruitful-modal-panel">
+    <div class="fruitful-modal-header">
+      <div>
+        <p class="eyebrow" id="projectModalCategory">PROJECT DETAILS</p>
+        <h2 id="fruitfulModalTitle">Project title</h2>
+        <p id="projectModalDescription"></p>
+      </div>
+      <button class="fruitful-modal-close" type="button" aria-label="Close project details" data-close-fruitful>&times;</button>
+    </div>
+    <div class="fruitful-full-art-wrap" id="projectModalGallery"></div>
+    <div class="fruitful-modal-footer">
+      <span id="projectModalTech"></span>
+      <a id="projectModalOpenImage" href="#" target="_blank" rel="noopener noreferrer" hidden>Open full-size image ↗</a>
+    </div>
+  </div>
+</div>
+<style>
+.fruitful-project-art { position:relative; overflow:hidden; background:#f4f0eb; min-height:220px; display:flex; align-items:center; justify-content:center; }
+.fruitful-project-art img { display:block; width:100%; height:100%; min-height:220px; max-height:330px; object-fit:cover; object-position:center; }
+.fruitful-project-art .art-label { z-index:2; }
+.fruitful-modal { position:fixed; inset:0; z-index:9999; display:none; align-items:center; justify-content:center; padding:clamp(12px,3vw,36px); }
+.fruitful-modal.is-open { display:flex; }
+.fruitful-modal-backdrop { position:absolute; inset:0; background:rgba(20,18,19,.78); backdrop-filter:blur(5px); }
+.fruitful-modal-panel { position:relative; z-index:1; width:min(1100px,100%); max-height:92vh; overflow:auto; background:var(--panel, #fff); color:var(--text, #292525); border:1px solid rgba(150,120,130,.25); border-radius:18px; box-shadow:0 24px 80px rgba(0,0,0,.3); padding:clamp(16px,3vw,28px); }
+.fruitful-modal-header { display:flex; justify-content:space-between; align-items:flex-start; gap:18px; margin-bottom:18px; }
+.fruitful-modal-header h2 { margin:4px 0 6px; }
+.fruitful-modal-header p { margin:0; }
+.fruitful-modal-close { flex:0 0 auto; border:1px solid rgba(120,100,105,.3); border-radius:50%; width:42px; height:42px; font-size:28px; line-height:1; cursor:pointer; background:transparent; color:inherit; }
+.fruitful-full-art-wrap { display:flex; align-items:center; justify-content:center; background:#f1efeb; border-radius:12px; overflow:auto; }
+.fruitful-full-art-wrap img { display:block; width:100%; height:auto; max-height:68vh; object-fit:contain; }
+.fruitful-modal-footer { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding-top:14px; font-size:.9rem; }
+.fruitful-modal-footer a { color:inherit; text-underline-offset:4px; }
+body.fruitful-modal-open { overflow:hidden; }
+@media (max-width:600px) { .fruitful-project-art img { min-height:180px; } .fruitful-modal-panel { max-height:95vh; } .fruitful-full-art-wrap img { max-height:62vh; } }
+
+.project-modal-gallery img { max-width:100%; }
+#projectModalGallery {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  padding:14px;
+  background:#f1efeb;
+  border-radius:12px;
+}
+#projectModalGallery img {
+  display:block;
+  width:auto;
+  max-width:100%;
+  max-height:62vh;
+  height:auto;
+  object-fit:contain;
+  border-radius:8px;
+}
+
+</style>
+<script>
+(() => {
+  const modal = document.getElementById('fruitfulModal');
+  const title = document.getElementById('fruitfulModalTitle');
+  const category = document.getElementById('projectModalCategory');
+  const description = document.getElementById('projectModalDescription');
+  const tech = document.getElementById('projectModalTech');
+  const gallery = document.getElementById('projectModalGallery');
+  const openImage = document.getElementById('projectModalOpenImage');
+
+  if (!modal) return;
+
+  const openModal = (button) => {
+    const card = button.closest('.project-card');
+    if (!card) return;
+
+    title.textContent = button.dataset.title || card.querySelector('h3')?.textContent.trim() || 'Project details';
+    description.textContent = button.dataset.description || card.querySelector('.project-info p')?.textContent.trim() || '';
+    tech.textContent = button.dataset.tech || '';
+    category.textContent = card.querySelector('.project-meta')?.textContent.trim() ||
+      (card.dataset.category || 'PROJECT').toUpperCase() + ' PROJECT';
+
+    gallery.replaceChildren();
+    const images = Array.from(card.querySelectorAll('.project-art img'));
+    images.forEach((sourceImage) => {
+      const image = document.createElement('img');
+      image.src = sourceImage.getAttribute('src');
+      image.alt = sourceImage.alt || title.textContent;
+      image.loading = 'lazy';
+      gallery.appendChild(image);
+    });
+
+    if (images.length) {
+      openImage.href = images[0].getAttribute('src');
+      openImage.hidden = false;
+    } else {
+      openImage.hidden = true;
+      openImage.removeAttribute('href');
+    }
+
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('fruitful-modal-open');
+    modal.querySelector('.fruitful-modal-close')?.focus();
+  };
+
+  const closeModal = () => {
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('fruitful-modal-open');
+  };
+
+  document.addEventListener('click', (event) => {
+    const trigger = event.target.closest('.project-details');
+    if (trigger) {
+      event.preventDefault();
+      openModal(trigger);
+      return;
+    }
+    if (event.target.closest('[data-close-fruitful]')) closeModal();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && modal.classList.contains('is-open')) closeModal();
+  });
+})();
+</script>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+<script>
+(() => {
+  const list = document.getElementById('projectList');
+  const categoryFilter = document.getElementById('categoryFilter');
+  const searchInput = document.getElementById('projectSearch');
+  const count = document.getElementById('projectCount');
+  const noResults = document.getElementById('noResults');
+
+  if (!list || !categoryFilter || !searchInput) return;
+
+  const cards = Array.from(list.querySelectorAll('.project-card'));
+
+  function filterProjects() {
+    const selectedCategory = categoryFilter.value.toLowerCase();
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const category = (card.dataset.category || '').toLowerCase();
+      const searchableText = [
+        card.dataset.search || '',
+        card.textContent || ''
+      ].join(' ').toLowerCase();
+
+      const matchesCategory =
+        selectedCategory === 'all' || category === selectedCategory;
+      const matchesSearch =
+        searchTerm === '' || searchableText.includes(searchTerm);
+      const isVisible = matchesCategory && matchesSearch;
+
+      card.hidden = !isVisible;
+      if (isVisible) visibleCount += 1;
+    });
+
+    if (count) count.textContent = String(visibleCount).padStart(2, '0');
+    if (noResults) noResults.hidden = visibleCount !== 0;
+  }
+
+  categoryFilter.addEventListener('change', filterProjects);
+  searchInput.addEventListener('input', filterProjects);
+  filterProjects();
+})();
+</script>
+
+</body></html>
